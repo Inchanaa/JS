@@ -1,0 +1,22 @@
+const accId = 101
+let accEmail = "example@gmail.com"
+var accName = "Abc"
+accPswd = "12345"
+let accState;
+
+console.table([accId,accEmail,accName,accPswd,accState])
+/*
+{
+    let a=1
+    console.log(a)
+    let a=2
+    console.log(a)
+}
+* let declarations cannot be redeclared by any other declaration in the same scope.
+
+
+* accId = 102 --> not allowed
+* prefer not to use var
+bcz of issue in block scope and functional scope
+*/
+console.log(accId)
