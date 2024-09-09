@@ -16,6 +16,6 @@ null -->object--standalone value
 undefined
 symbols--> unique
 */
-console.log(typeof a)
+console.log(typeof a)  //object
 console.log(typeof b)
 console.log(typeof c)
