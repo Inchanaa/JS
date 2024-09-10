@@ -16,6 +16,8 @@ let trimNm = "    krishna     ."
 console.log(trimNm.trim());
 
 let slicenm = new String('sliceTheValue')
+console.log(slicenm);
+
 let sl = slicenm.slice(-8,11)
 let sli = slicenm.slice(8,11)
 console.log(sl);
@@ -25,7 +27,6 @@ let splt = " my name-is-arvi"
 console.log(splt.split("-"));
 let emptySplit = splt.split("")
 console.log(emptySplit);
-console.log(emptySplit.list[-1]);
 
 
 
