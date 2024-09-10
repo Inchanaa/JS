@@ -75,3 +75,31 @@ console.log(person);
 delete person.age;
 console.log(person);
 
+//*************************************************** */
+
+// two types of memory 
+//1. stack - all primitive types use stack memory alocation, call by value, when data changes only value will change not reference , original data won't channge
+
+let num = 10
+let num1 = num
+console.log(num1);      //10
+ num1 = 20
+ console.log(num1);     // 20
+ console.log(num);      // 10 original value doesn't change
+
+ //2. heap - all non primitive, call by reference, vn data changes reference will change, original data also change 
+
+ let obj = {
+    name1: "arya",
+    age1 : "20"
+ }
+
+ let obj1 = obj
+ console.log(obj1);     // 20
+
+ obj1.age1 = "25"
+
+ console.log(obj1);     // 25
+ console.log(obj)       //25 original value changes
+ 
+ 
