@@ -26,4 +26,14 @@ console.log(typeof newArr);
 console.log(myArr);
 
 
-//slice
+//slice and splice
+
+console.log("original Array",myArr);
+
+console.log("slice",myArr.slice(1,3));      //last value nt included
+console.log(myArr);     //original array printed
+
+console.log("splice", myArr.splice(1 , 3));     // include last value
+console.log(myArr);     //except splice other elements will print
+
+
